@@ -1,0 +1,47 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+}
+
+h1 {
+    display: inline-block;
+    font-size: xx-large;
+    margin: 1px;
+}
+
+
+
+a {
+    display: inline-block;
+    padding: 5px;
+    border-bottom: 3px solid blue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    text-align: right;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.left {
+    display: flex;
+    border-right: 3px solid blue;
+    width: 25%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#subtitle {
+    text-align: right;
+    margin-right: 1.5%;
+}
+
+#surf-report {
+    background-color: gray;
+    padding: 5px;
+    width: fit-content;
+}
