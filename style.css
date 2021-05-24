@@ -4,44 +4,116 @@ body {
 }
 
 h1 {
-    display: inline-block;
     font-size: xx-large;
-    margin: 1px;
+    text-align: right;
+    vertical-align: middle;
+    transform: translate(0, 50%);
+    padding: 1%;
+    padding-left: 10%;
+    height: 50px;
+    width: fit-content;
+    background-color: lightblue;
 }
 
-
+h2 {
+    font-size: x-large;
+}
 
 a {
     display: inline-block;
-    padding: 5px;
-    border-bottom: 3px solid blue;
+    text-decoration: none;
+    padding: 7px;
+    border-bottom: 5px solid lightblue;
+    color: lightblue;
 }
 
-ul {
-    list-style-type: none;
+img {
+    border: 6px solid gray;
 }
+
+/* ul {
+    list-style-type: none;
+} */
 
 nav {
-    text-align: right;
-    padding-left: 3px;
-    padding-right: 3px;
+    position: absolute;
+    right: 5%;
+    top: 4%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section-title {
+    display: flex;
 }
 
 .left {
-    display: flex;
-    border-right: 3px solid blue;
-    width: 25%;
+    padding-right: 1%;
+    border-right: 5px solid darkblue;
+    margin-right: 1%;
+    width: 100%;
     font-size: x-large;
     font-weight: bold;
-}
-
-#subtitle {
     text-align: right;
-    margin-right: 1.5%;
+    background-color: none;
 }
 
-#surf-report {
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 75%;
+    margin-right: 5%;
+}
+
+.proj-title {
+    position: absolute;
+    bottom: 50px;
     background-color: gray;
     padding: 5px;
     width: fit-content;
+}
+
+#top-box {
+    height: 100px;
+    width: 100%;
+    background-color: darkslategray;
+}
+
+#banner {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border: none;
+}
+
+#subtitle {
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    right: -75%;
+    bottom: 50px;
+    text-align: right;
+    padding: 5px;
+    margin-right: 1.5%;
+    background-color: lightgray;
+    height: fit-content;
+    width: fit-content;
+}
+
+/* #about-me {
+    display: flex;
+}
+
+#work {
+    display: flex;
+} */
+
+#surfers {
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
 }
