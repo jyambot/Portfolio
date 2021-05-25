@@ -9,3 +9,5 @@ at a time from the top down.
 Currently, I'm stuck trying to figure out how to properly style the "Work" section. My idea was to have "Surf Report" as a flexbox
 on the same level as the other four items, which would be in a flexbox of their own. In the simplest terms I can think of, a series 
 of nested flexboxes. 
+
+<img src="./images/Nested Flexboxes.png">
